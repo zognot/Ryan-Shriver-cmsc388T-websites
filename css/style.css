@@ -23,7 +23,7 @@ html, body {
 .nav a {
     display: inline-block;
     padding: 0.5em;
-    color: white;
+    color: green;
     text-decoration: none;
 }
 
@@ -43,7 +43,7 @@ html, body {
 }
 
 .main-header {
-    background-color: red;
+    background-color: green;
     background-image: url('https://www.databankimx.com/wp-content/uploads/2015/07/Microsoft-Cloud-Offerings.jpg');
     background-blend-mode: multiply;
     background-size: cover;
@@ -52,12 +52,12 @@ html, body {
 
 .header-strip {
     background-color: #66b9ec;
-    color: white;
+    color: red;
     margin-bottom: 1em;
 }
 
 .res-section-header {
-    color: white;
+    color: green;
     font-weight: 550;
     text-align: center;
     padding-bottom: 0.5em;
@@ -73,7 +73,7 @@ html, body {
     margin: 15px;
     font-size: 3em;
     font-weight: normal;
-    color: white;
+    color:turquoise;
 }
 
 .content-section {
@@ -99,12 +99,13 @@ html, body {
     color: #333;
 }
 
-.about-prof-image {
-    float: left;
-    height: 175px;
-    width: 190px;
-    margin: 30px;
+.about-me-image {
+    float: right;
+    margin-right: 20px;
+    margin-top: -5px;
     border-radius: 50%;
+    max-width:50%; 
+    max-height:350px;
 }
 
 .res-element {
@@ -113,8 +114,8 @@ html, body {
 }
 
 .main-footer {
-    background-color: red;
-    color: white;
+    background-color: green;
+    color: turquoise;
     position: fixed;
     bottom: 0;
     width: 100%;
