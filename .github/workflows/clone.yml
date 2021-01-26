@@ -1,6 +1,5 @@
 name: clone workflow
-on:
-  workflow_dispatch:
+on: [workflow_dispatch]
 jobs:
   job_one:
     name: Clone
