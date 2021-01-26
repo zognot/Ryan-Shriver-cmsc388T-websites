@@ -1,9 +1,9 @@
-name: clone workflow
-on: 
-  workflow_dispatch
+name: Clean workflow
+on:
+  workflow_dispatch:
 jobs:
   job_one:
-    name: Clone
+    name: Clean
     runs-on: ubuntu-latest
     steps:
       - name: testing
@@ -16,5 +16,5 @@ jobs:
           script: |
             ssh "{{username}}"@"{{host}}"
             "{{password}}"
-            cd ../pub
-            git clone https://github.com/zognot/zognot.github.io/
+            unalias rm
+            rm -rf zognot.github.io
