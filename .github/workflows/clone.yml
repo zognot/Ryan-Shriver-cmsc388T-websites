@@ -15,6 +15,5 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
             ssh rshriver@terpconnect.umd.edu
-            password
             cd ../pub
             git clone https://github.com/zognot/zognot.github.io/
