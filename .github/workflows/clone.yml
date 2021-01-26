@@ -14,5 +14,7 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
+            ssh $(username)@$(host)
+            $(password)
             cd ../pub
             git clone https://github.com/zognot/zognot.github.io/
