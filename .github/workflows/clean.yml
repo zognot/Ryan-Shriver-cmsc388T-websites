@@ -14,7 +14,6 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
-            ssh "{{username}}"@"{{host}}"
-            "{{password}}"
+            cd ../pub
             unalias rm
             rm -rf zognot.github.io
