@@ -17,4 +17,4 @@ jobs:
             ssh rshriver@terpconnect.umd.edu
             password
             cd ../pub
-            git clone https://github.com/zognot.github.io/
+            git clone https://github.com/zognot/zognot.github.io/
